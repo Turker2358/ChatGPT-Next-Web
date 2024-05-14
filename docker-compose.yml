@@ -7,16 +7,16 @@ services:
     ports:
       - 3000:3000
     environment:
-      - OPENAI_API_KEY=$OPENAI_API_KEY
-      - GOOGLE_API_KEY=$GOOGLE_API_KEY
-      - CODE=$CODE
-      - BASE_URL=$BASE_URL
-      - OPENAI_ORG_ID=$OPENAI_ORG_ID
-      - HIDE_USER_API_KEY=$HIDE_USER_API_KEY
-      - DISABLE_GPT4=$DISABLE_GPT4
-      - ENABLE_BALANCE_QUERY=$ENABLE_BALANCE_QUERY
-      - DISABLE_FAST_LINK=$DISABLE_FAST_LINK
-      - OPENAI_SB=$OPENAI_SB
+      - OPENAI_API_KEY= Empty
+      - GOOGLE_API_KEY=Empty
+      - CODE=Empty
+      - BASE_URL=Empty
+      - OPENAI_ORG_ID=Empty
+      - HIDE_USER_API_KEY=Empty
+      - DISABLE_GPT4=Empty
+      - ENABLE_BALANCE_QUERY=Empty
+      - DISABLE_FAST_LINK=Empty
+      - OPENAI_SB=Empty
 
   chatgpt-next-web-proxy:
     profiles: [ "proxy" ]
@@ -25,14 +25,14 @@ services:
     ports:
       - 3000:3000
     environment:
-      - OPENAI_API_KEY=$OPENAI_API_KEY
-      - GOOGLE_API_KEY=$GOOGLE_API_KEY
-      - CODE=$CODE
-      - PROXY_URL=$PROXY_URL
-      - BASE_URL=$BASE_URL
-      - OPENAI_ORG_ID=$OPENAI_ORG_ID
-      - HIDE_USER_API_KEY=$HIDE_USER_API_KEY
-      - DISABLE_GPT4=$DISABLE_GPT4
-      - ENABLE_BALANCE_QUERY=$ENABLE_BALANCE_QUERY
-      - DISABLE_FAST_LINK=$DISABLE_FAST_LINK
-      - OPENAI_SB=$OPENAI_SB
+      - OPENAI_API_KEY=Empty
+      - GOOGLE_API_KEY=Empty
+      - CODE=Empty
+      - PROXY_URL=Empty
+      - BASE_URL=Empty
+      - OPENAI_ORG_ID=Empty
+      - HIDE_USER_API_KEY=Empty
+      - DISABLE_GPT4=Empty
+      - ENABLE_BALANCE_QUERY=Empty
+      - DISABLE_FAST_LINK=Empty
+      - OPENAI_SB=Empty
